@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mad Libs Story Generator</title>
+</head>
+<body>
+    <h1>Fill in the Blanks</h1>
+    <form method="post">
+        Name:
+        <input type="text" name="name" list="name-suggestions">
+        <datalist id="name-suggestions">
+            <option value="Alex">
+            <option value="Riley">
+            <option value="Jordan">
+            <option value="Morgan">
+            <option value="Taylor">
+        </datalist>
+        <br><br>
+
+        Place:
+        <input type="text" name="place" list="place-suggestions">
+        <datalist id="place-suggestions">
+            <option value="the jungle">
+            <option value="a haunted mansion">
+            <option value="the moon">
+            <option value="an underwater city">
+            <option value="a secret island">
+        </datalist>
+        <br><br>
+
+        Object:
+        <input type="text" name="object" list="object-suggestions">
+        <datalist id="object-suggestions">
+            <option value="a magic stone">
+            <option value="a golden key">
+            <option value="a banana">
+            <option value="a mysterious book">
+            <option value="a crystal ball">
+        </datalist>
+        <br><br>
+
+        Animal:
+        <input type="text" name="animal" list="animal-suggestions">
+        <datalist id="animal-suggestions">
+            <option value="monkey">
+            <option value="dragon">
+            <option value="fox">
+            <option value="penguin">
+            <option value="unicorn">
+        </datalist>
+        <br><br>
+
+        Action (verb):
+        <input type="text" name="action" list="action-suggestions">
+        <datalist id="action-suggestions">
+            <option value="befriend">
+            <option value="battle">
+            <option value="trade with">
+            <option value="escape from">
+            <option value="outsmart">
+        </datalist>
+        <br><br>
+
+        <button type="submit">Generate Story</button>
+    </form>
+</body>
+</html>
