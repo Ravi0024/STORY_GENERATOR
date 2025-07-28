@@ -47,4 +47,3 @@ pip install flask
 bash
 
 python app.py
-Open in browser:
