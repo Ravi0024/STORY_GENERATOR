@@ -30,8 +30,7 @@ madlibs-story-generator/
 
 bash
 
-git clone https://github.com/your-username/madlibs-story-generator.git
-cd madlibs-story-generator
+git clone https://github.com/Ravi0024/madlibs-story-generator.git 
 
 2.Create a virtual environment and install Flask:
 
